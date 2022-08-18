@@ -58,6 +58,7 @@ app.post('/update-profile', function (req, res) {
   res.send(userObj);
 });
 
+
 app.get('/get-profile', function (req, res) {
   let response = {};
   // Connect to the db
@@ -84,29 +85,7 @@ app.listen(3000, function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Test*/
 
 
 
